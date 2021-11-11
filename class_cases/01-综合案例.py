@@ -81,7 +81,7 @@ class Caculator():
         self.__speaker(str("清除"))
         self.__res = 0
 
-    @property
+    @property   # get 方法
     def result(self):
         return self.__res
 
